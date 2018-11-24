@@ -273,10 +273,16 @@ a {
   background-size: 100%;
 }
 
+.toprepos {
+  background: url('img/toprepos.png');
+  background-size: 100%;
+}
+
 @media (max-width: 1250px) {
   .contact {
     font-size: .95em;
   }
+
   .info {
     margin-left: -1em;
   }
