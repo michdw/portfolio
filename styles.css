@@ -1,6 +1,6 @@
 @font-face {
   font-family: icons;
-  src: url('icomoon/fonts/icomoon.ttf');
+  src: url("icomoon/fonts/icomoon.ttf");
 }
 
 html,
@@ -14,7 +14,7 @@ body {
   padding: 0;
   margin: 0;
   background: #333;
-  font-family: 'Josefin Sans'
+  font-family: "Josefin Sans";
 }
 
 a {
@@ -38,7 +38,7 @@ a {
 }
 
 .header-icons a {
-  margin: .5em;
+  margin: 0.5em;
   text-decoration: none;
 }
 
@@ -138,8 +138,8 @@ a {
   top: 10%;
   left: 2px;
   z-index: 1;
-  -webkit-transition: all .15s ease;
-  transition: all .15s ease;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
 }
 
 .aside {
@@ -147,59 +147,57 @@ a {
 }
 
 .aside-sub {
-  font-size: .9em;
+  font-size: 0.9em;
 }
 
 .dimmer {
   position: absolute;
   min-width: inherit;
   min-height: inherit;
-  background: rgba(51, 51, 51, .85);
+  background: rgba(51, 51, 51, 0.85);
 }
 
 /*tiles*/
 
 .cube-navigation {
-  background: url('img/cubeNavigation.png');
+  background: url("img/cubeNavigation.png");
   background-size: 100%;
 }
 
 .accordion-menu {
-  background: url('img/accordion.png');
+  background: url("img/accordion.png");
   background-size: 100%;
 }
 
 .parallax-animation {
-  background: url('img/parallax.png');
+  background: url("img/parallax.png");
   background-size: 100%;
 }
 
 .bgscroll {
-  background: url('img/bgcolor.png');
+  background: url("img/bgcolor.png");
   background-size: 100%;
 }
 
 .british-names {
-  background: url('img/britishName.png');
+  background: url("img/britishName.png");
   background-size: 100%;
 }
 
 .esketch {
-  background: url('img/sketch.png');
+  background: url("img/sketch.png");
   background-size: 100%;
 }
 
 .quizzical {
-  background: url('img/quizzical.png');
+  background: url("img/quizzical.png");
   background-size: 100%;
 }
 
 .trandom {
-  background: url('img/trandom.png');
+  background: url("img/trandom.png");
   background-size: 100%;
 }
-
-
 
 /* .*** {
   background: url('img/***.png');
@@ -208,7 +206,7 @@ a {
 
 @media (max-width: 1250px) {
   .contact {
-    font-size: .95em;
+    font-size: 0.95em;
   }
 
   .info {
@@ -217,7 +215,6 @@ a {
 }
 
 @media (max-width: 1000px) {
-
   .sidebar {
     display: none;
   }
